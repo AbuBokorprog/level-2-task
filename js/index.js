@@ -11,6 +11,6 @@ const displayCountNumber = (count) => {
 
 const getCount = () => {
   let result = localStorage.getItem("count", count);
-  clickBtn(parent(result));
+  displayCountNumber(result);
 };
 getCount();
