@@ -1,5 +1,5 @@
 let num = 0;
-const clickBtn = (num) => {
+const clickBtn = () => {
   let number = num++;
   displayCountNumber(number);
 };
